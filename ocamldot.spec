@@ -11,7 +11,6 @@ URL:		http://www.research.att.com/~trevor/ocamldot
 License:	Public Domain
 Group:		Development/Other
 BuildRequires:	ocaml
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Ocamldot generates program dependency graphs for ocaml programs.
