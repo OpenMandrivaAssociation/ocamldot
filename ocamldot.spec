@@ -39,3 +39,31 @@ rm -rf %{buildroot}
 %{_bindir}/*
 %{_mandir}/man1/*
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.0-6mdv2010.0
++ Revision: 430192
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 1.0-5mdv2009.0
++ Revision: 254192
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Dec 20 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-3mdv2008.1
++ Revision: 135994
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Mon Aug 28 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-2mdv2007.0
+- Rebuild
+
+* Wed Mar 22 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-1mdk
+- first mdk release
+
