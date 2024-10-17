@@ -7,7 +7,7 @@ Version:	%{version}
 Release:	%{release}
 Summary:	OCaml program dependency graph generator
 Source: 	http://www.research.att.com/~trevor/ocamldot/%{name}.tar.bz2
-URL:		http://www.research.att.com/~trevor/ocamldot
+URL:		https://www.research.att.com/~trevor/ocamldot
 License:	Public Domain
 Group:		Development/Other
 BuildRequires:	ocaml
